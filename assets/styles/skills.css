@@ -9,19 +9,35 @@
 }
 
 .logos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
 }
 
-.logos img{
+.slide{
+    width: auto;
     margin: 12px;
     transition: all 0.3s ease;
+    flex-shrink: 0;
 }
 
-.logos img:hover{
+.slide:hover{
     transform: scale(1.2);
+}
+
+@media (max-width: 500px){
+    .logos{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        
+    }
+}
+
+@media (max-width: 290px){
+    .logos{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        
+    }
 }
