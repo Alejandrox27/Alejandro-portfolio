@@ -42,4 +42,13 @@ ul{
 
 .menu_item a{
     color: #FAF0E6;
+    
+}
+
+.menu_item{
+    transition: all 0.2s ease;
+}
+
+.menu_item:hover{
+    transform: scale(1.2);
 }

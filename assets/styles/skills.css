@@ -1,0 +1,22 @@
+.skills_logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 105vh;
+    background-color: #1e1b25;
+    padding: 0 5em;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logos img{
+    margin: 12px;
+}

@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0 5em;
 
 }
 
@@ -51,6 +52,11 @@ p{
 .social a{
     margin: 0 5px;
     color: #FFF;
+    transition: all 0.3s ease;
+}
+
+.social a:hover{
+    transform: scale(1.2);
 }
 
 @media (max-width: 1015px){
