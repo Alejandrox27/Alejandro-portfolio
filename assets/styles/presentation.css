@@ -74,6 +74,10 @@ p{
         align-items: center;
     }
 
+    .me {
+        margin-bottom: 50px;
+    }
+
 }
 
 @media (max-width: 655px){
