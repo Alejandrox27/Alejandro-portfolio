@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="./assets/styles/all.min.css">
     <link rel="stylesheet" href="./assets/styles/skills.css">
     <link rel="stylesheet" href="./assets/styles/animation.css">
+    <link rel="stylesheet" href="./assets/styles/proyects.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 
     <title>Alejandrox27</title>
 </head>
@@ -20,8 +24,8 @@
         <nav class="menu nav"> 
             <ul>
                 <li class="menu_item"><a href="#skills">Skills</a></li>
-                <li class="menu_item"><a href="#aboutme">About me</a></li>
                 <li class="menu_item"><a href="#proyects">Proyects</a></li>
+                <li class="menu_item"><a href="#aboutme">About me</a></li>
                 <li class="menu_item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -67,9 +71,109 @@
 
         <section id="proyects" class="proyects">
             <h2>Some proyects</h2>
-            
+            <div class="container-proyects swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
 
+                        <a href="https://github.com/Alejandrox27/Students_api" target="_blank"><img src="./assets/img/proyect_students.png" alt="students program"/></a>
+    
+                        <div class="card-body">
+                            <h3>Students program</h3>
+                            <p>This proyect is a connection with an api crud<br>
+                            for add students and teachers to an interface<br>
+                            where you can pass of fail a student</p>
+                            <div class="buttons">
+                                <a href="https://github.com/Alejandrox27/Students_api" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+    
+                    </div>
 
+                    <div class="swiper-slide">
+
+                        <a href="https://github.com/Alejandrox27/Students_api" target="_blank"><img src="./assets/img/proyect_students.png" alt="students program"/></a>
+    
+                        <div class="card-body">
+                            <h3>Students program</h3>
+                            <p>This proyect is a connection with an api crud<br>
+                            for add students and teachers to an interface<br>
+                            where you can pass of fail a student</p>
+                            <div class="buttons">
+                                <a href="https://github.com/Alejandrox27/Students_api" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <a href="https://github.com/Alejandrox27/Students_api" target="_blank"><img src="./assets/img/proyect_students.png" alt="students program"/></a>
+    
+                        <div class="card-body">
+                            <h3>Students program</h3>
+                            <p>This proyect is a connection with an api crud<br>
+                            for add students and teachers to an interface<br>
+                            where you can pass of fail a student</p>
+                            <div class="buttons">
+                                <a href="https://github.com/Alejandrox27/Students_api" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <a href="https://github.com/Alejandrox27/Students_api" target="_blank"><img src="./assets/img/proyect_students.png" alt="students program"/></a>
+    
+                        <div class="card-body">
+                            <h3>Students program</h3>
+                            <p>This proyect is a connection with an api crud<br>
+                            for add students and teachers to an interface<br>
+                            where you can pass of fail a student</p>
+                            <div class="buttons">
+                                <a href="https://github.com/Alejandrox27/Students_api" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <a href="https://github.com/Alejandrox27/Students_api" target="_blank"><img src="./assets/img/proyect_students.png" alt="students program"/></a>
+    
+                        <div class="card-body">
+                            <h3>Students program</h3>
+                            <p>This proyect is a connection with an api crud<br>
+                            for add students and teachers to an interface<br>
+                            where you can pass of fail a student</p>
+                            <div class="buttons">
+                                <a href="https://github.com/Alejandrox27/Students_api" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <a href="https://github.com/Alejandrox27/Students_api" target="_blank"><img src="./assets/img/proyect_students.png" alt="students program"/></a>
+    
+                        <div class="card-body">
+                            <h3>Students program</h3>
+                            <p>This proyect is a connection with an api crud<br>
+                            for add students and teachers to an interface<br>
+                            where you can pass of fail a student</p>
+                            <div class="buttons">
+                                <a href="https://github.com/Alejandrox27/Students_api" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                
+            </div>
         </section>
 
         <section id="aboutme" class="aboutme">
@@ -89,6 +193,39 @@
             
         </div>
     </footer>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 2,
+      centeredSlides: false,
+      slidesPerGroupSkip: 2,
+      grabCursor: true,
+      keyboard: {
+        enabled: true,
+      },
+      breakpoints: {
+        769: {
+          slidesPerView: 3.45,
+          slidesPerGroup: 3.45,
+        },
+      },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
         
 </body>
 </html>
