@@ -59,8 +59,36 @@ p{
     transform: scale(1.2);
 }
 
-@media (max-width: 1015px){
+.me{
+    width: 400px;
+}
+
+@media (max-width: 1169px){
     .presentation{
         margin-top: 10em;
     }
+    
+    .presentation_container{
+        justify-content: center;
+    }
 }
+
+@media (max-width: 778px){
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    .hi{
+        display: none;
+    }
+
+    .me{
+        width: 270px;
+    }
+
+}
+
