@@ -1,21 +1,31 @@
 .container-about{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .aboutme{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    height: 105vh;
-    background-color: #1e1b25;
-    padding: 0;
+    min-height: 105vh;
+    height: fit-content;
+    background-color: #6E4A44;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 .me_sub{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutme h3{
@@ -28,9 +38,32 @@
     font-size: 20px;
     font-weight: 400;
     color: #FAF0E6;
+    margin-top: 10px;
 }
 
-.tenor-gif-embed{
-    width: 30%;
-    height: 100%;
+.banner {
+    max-height: 105vh;
+    min-width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img{
+    max-height: 105vh;
+}
+
+@media (max-width: 768px){
+    .container-about{
+        padding: 20px;
+    }
+
+    .banner img{
+        display: none;
+    }
+
+    .banner{
+        display: none;
+    }
+    
 }

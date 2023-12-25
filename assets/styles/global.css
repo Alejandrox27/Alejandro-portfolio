@@ -5,5 +5,12 @@
 }
 
 body{
-    background-color: #352F44;
+    background-color: #4C3F39;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: .2em;
+    color: #FFE79B;
 }

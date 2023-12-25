@@ -31,11 +31,8 @@ h1{
     color: #FAF0E6;
 }
 
-h2{
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: .2em;
-    color: #FFE79B;
+.presentation h2{
+    color: #f17360;
 }
 
 p{
@@ -44,7 +41,7 @@ p{
 }
 
 .dev{
-    color: #DD58D6;
+    color: #E2652F;
 }
 
 .social{

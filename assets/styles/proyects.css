@@ -20,9 +20,10 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background: #1E1B25;
+    background: #2e2622;
     border-radius: 10px;
     padding: 10px;
+    padding-top: 20px;
     max-width: 390px;
     max-height: 470px;
     margin: 10px 10px;
@@ -36,12 +37,12 @@
 
   .proyect h3{
     font-size: 30px;
-    color: #EDE4FF;
+    color: #EC8B59;
   }
 
   .proyect p{
     font-size: 20px;
-    color: #D7BBF5;
+    color: #EEDAB3;
   }
 
   .proyect .buttons{
@@ -53,7 +54,7 @@
 
   .proyect i{
     font-size: 30px;
-    color: #D7BBF5;
+    color: #EEDAB3;
   }
 
 @media (max-width: 852px){
