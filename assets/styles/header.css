@@ -13,7 +13,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 8dvh;
+    height: fit-content;
 }
 
 ul{
@@ -26,7 +26,6 @@ ul{
 .menu{
     width: 100%;
     max-width: 500px;
-    padding-right: 2rem;
 
 }
 
@@ -39,7 +38,6 @@ ul{
     color: #FAF0E6;
     font-weight: 700;
     font-size: 2rem;
-    padding-right: 2rem;
 }
 
 .menu_item a{
@@ -72,3 +70,9 @@ ul{
     }
 
 }
+
+@media (max-width: 360px){
+    header li a{
+        font-size: 13px;
+    }
+  }
