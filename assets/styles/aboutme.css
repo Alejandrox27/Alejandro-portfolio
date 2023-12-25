@@ -1,0 +1,36 @@
+.container-about{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 105vh;
+    background-color: #1e1b25;
+    padding: 0;
+}
+
+.me_sub{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FAF0E6;
+}
+
+.aboutme p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FAF0E6;
+}
+
+.tenor-gif-embed{
+    width: 30%;
+    height: 100%;
+}
