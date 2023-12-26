@@ -47,14 +47,14 @@
     max-height: 105vh;
     min-width: 290px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 50%;
     overflow: hidden;
 }
 
 .banner img{
-    max-height: 105vh;
+    height: 100%;
 }
 
 @media (max-width: 530px){
