@@ -1,0 +1,51 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-family: "Lato", sans-serif;
+    background-color: rgba(182, 134, 87, 0.842);
+    padding: 20px;
+}
+
+footer i{
+    font-size: 30px;
+    margin: 0px 7px;
+    color: #4C3F39;
+    transition: all 0.3s ease;
+}
+
+footer .icon{
+    color: #4C3F39;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+footer i:hover{
+    color: #F5E9DD; ;
+    transform: scale(1.2);
+}
+
+footer .about a{
+    color: #4C3F39;
+    font-size: 18px;
+    transition: all 0.2s ease;
+}
+
+footer .about a:hover{
+    transform: scale(1.2);
+}
+
+footer .about a:hover{
+    color: #F5E9DD;
+}
+
+footer .logo_span{
+    color: #4C3F39;
+    transition: all 0.2s ease;
+}
+
+footer .logo_span:hover{
+    color: #F5E9DD;
+}
