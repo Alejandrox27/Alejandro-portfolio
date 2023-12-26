@@ -49,3 +49,18 @@ footer .logo_span{
 footer .logo_span:hover{
     color: #F5E9DD;
 }
+
+@media (max-width: 606px){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-social{
+        margin-top: 10px;
+    }
+
+    footer .about{
+        margin-top: 10px;
+    }
+}
