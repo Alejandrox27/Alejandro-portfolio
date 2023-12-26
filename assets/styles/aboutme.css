@@ -7,6 +7,7 @@
     padding: 100px;
     box-sizing: border-box;
     text-align: center;
+    width: 50%;
 }
 
 .aboutme{
@@ -19,6 +20,7 @@
     background-color: #6E4A44;
     padding: 0px;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .me_sub{
@@ -47,13 +49,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    overflow: hidden;
 }
 
 .banner img{
     max-height: 105vh;
 }
 
-@media (max-width: 768px){
+@media (max-width: 530px){
     .container-about{
         padding: 20px;
     }
