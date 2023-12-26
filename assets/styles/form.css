@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
 }
 
 input{
@@ -42,14 +42,30 @@ textarea{
 
 .button-submit button{
     background: none;
-    border: 2px solid #f17360;
+    border: 2px solid #E7733C;
     border-radius: 5px;
-    color: #f17360;
+    color: #E7733C;
     padding: 10px 20px;
     transition: all 0.2s ease;
 }
 
 .button-submit button:hover{
     color: #FAF0E6;
-    background-color: #f17360;
+    background-color: #E7733C;
+}
+
+@media (max-width: 1110px){
+    #form{
+        width: 100%;
+    }
+}
+
+@media (max-width: 490px){
+    input, textarea, .button-submit{
+        width: 90%;
+    }
+
+    button{
+        width: 30%;
+    }
 }
