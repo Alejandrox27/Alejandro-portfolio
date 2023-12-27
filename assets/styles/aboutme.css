@@ -16,11 +16,14 @@
     justify-content: center;
     align-items: center;
     min-height: 105vh;
+    height: 105vh;
+    max-height: 105vh;
     height: fit-content;
     background-color: #6E4A44;
     padding: 0px;
     box-sizing: border-box;
     width: 100%;
+    overflow: hidden;
 }
 
 .me_sub{
@@ -60,6 +63,7 @@
 @media (max-width: 530px){
     .container-about{
         padding: 20px;
+        width: 95%;
     }
 
     .banner img{
