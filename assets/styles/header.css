@@ -40,16 +40,28 @@ ul{
     font-size: 2rem;
 }
 
-.menu_item a{
-    color: #FAF0E6;
-    
+.logo_span{
+    transition: all 0.2s ease;
+}
+
+.logo_span:hover{
+    color: #ffffff;
 }
 
 .menu_item{
+    color: #FAF0E6;
     transition: all 0.2s ease;
 }
 
 .menu_item:hover{
+    color: #ffffff;
+}
+
+.menu li{
+    transition: all 0.2s ease;
+}
+
+.menu li:hover{
     transform: scale(1.2);
 }
 
@@ -58,21 +70,25 @@ ul{
         flex-direction: column;
     }
 
-    header li a{
+    .menu_item{
         font-size: 20px;
+    }
+
+    .menu li{
+        margin-top: 10px;
     }
 
 }
 
 @media (max-width: 400px){
-    header li a{
-        font-size: 15px;
+    .menu_item{
+        font-size: 16px;
     }
 
 }
 
 @media (max-width: 360px){
-    header li a{
+    .menu_item{
         font-size: 13px;
     }
   }
