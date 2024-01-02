@@ -48,4 +48,3 @@ function showOr(e){
 }
 
 window.addEventListener("load", loaded, false);
-window.addEventListener("resize", loaded, false)
